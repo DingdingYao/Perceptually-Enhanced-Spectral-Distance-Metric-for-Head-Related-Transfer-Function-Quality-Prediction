@@ -1,0 +1,12 @@
+%   The file x.mat contains the following data:
+%   1. HRIRs_tested         (32 dirs x 7 methods x [1 hid. ref. + 1 hid. anc. + 6 LSDs] x 2 ears x 512 irlen)
+%      -- HRIRs under corresponding experimental conditions.
+%   2. Results_localization (32 dirs x 7 methods x [1 hid. ref. + 1 hid. anc. + 6 LSDs])
+%      -- Similarity scores in perceived location between distorted HRIRs and reference HRIR.     
+%   3. Results_timbre       (32 dirs x 7 methods x [1 hid. ref. + 1 hid. anc. + 6 LSDs])
+%      -- Similarity scores in perceived coloration between distorted HRIRs and reference HRIR.
+%   4. Dirs                 (32 dirs x [azimuth elevation])
+%   5. Methods_list         (7 HRTF processing methods for distortion)
+%      -- 'FSS', 'FSC', 'ARMA', 'PCA', 'SH', 'SELECTION', 'DL'.
+%   6. Fs: sampling rate of HRIRs.
+%   7. Mode_LR: 'L'/'R', the reference HRIR is for either the left ear ('L') or the right ear ('R').
