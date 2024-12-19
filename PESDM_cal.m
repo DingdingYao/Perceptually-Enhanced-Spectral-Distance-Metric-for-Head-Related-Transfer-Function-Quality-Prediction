@@ -101,6 +101,8 @@ end
 
 %% Time of arrival (TOA) detection.
 function beginPoint = getBeginPoint(HRIR)
+% Note: The threshold for leading-edge detection can range from 5% to 15%; this study used 10%. 
+%       If the modeled or processed HRIR has poor stability, a threshold of 5% can be adopted to avoid energy loss.
 threshold = 0.1*max(abs(HRIR)); % identifying the leading edge of the HRIR when it first reached 10% of its maximum peak amplitude
 for k = 1 : length(HRIR)
     if abs(HRIR(k)) > threshold
