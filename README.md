@@ -1,3 +1,6 @@
-# Perceptually-Enhanced-Spectral-Distance-Metric-for-Head-Related-Transfer-Function-Quality-Prediction
-Dingding Yao, Jiale Zhao, Yunpeng Liang, Yunan Wang, Jianjun Gu, Maoshen Jia, Hyunkook Lee, and Junfeng Li: Perceptually Enhanced Spectral Distance Metric for Head-Related Transfer Function Quality Prediction. In: Proc. The Journal of the Acoustical Society of America (accepted).
+# Perceptually enhanced spectral distance metric for head-related transfer function quality prediction
+This script provides a method for assessing the quality of the processed HRTF's magnitude spectrum. It is still under construction, and more code will be released subsequently.
 
+# Citation
+To cite this work, please use the following:
+Dingding Yao, Jiale Zhao, Yunpeng Liang, Yunan Wang, Jianjun Gu, Maoshen Jia, Hyunkook Lee, Junfeng Li; Perceptually enhanced spectral distance metric for head-related transfer function quality prediction. J. Acoust. Soc. Am. 1 December 2024; 156 (6): 4133–4152. https://doi.org/10.1121/10.0034632

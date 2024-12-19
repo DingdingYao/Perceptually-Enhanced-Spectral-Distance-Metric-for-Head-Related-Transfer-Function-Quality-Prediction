@@ -22,9 +22,9 @@ function perceptualScore = PESDM_cal(input_hrir,ref_hrir,azimuth,mode)
 %   Since the calculation of inner ear excitation patterns involves certain functions in AMT, it is necessary to load AMT.
 % 
 % REFERENCES:
-%   Dingding Yao, Jiale Zhao, et al. "Perceptually Enhanced Spectral Distance Metric for Head-Related Transfer Function 
-%        Quality Prediction." The Journal of the Acoustical Society of America.
-%        
+%   Dingding Yao, Jiale Zhao, et al., Perceptually enhanced spectral distance metric for head-related transfer function quality prediction. 
+%   J. Acoust. Soc. Am. 1 December 2024; 156 (6): 4133¨C4152.
+%      
 % AUTHOR: Dingding Yao - yaodingding(at)hccl.ioa.ac.cn
 % December 2024
 
